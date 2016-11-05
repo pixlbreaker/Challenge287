@@ -19,7 +19,6 @@ namespace Challenge287 {
         }
 
         // Returns the Largest Digit from a number
-
         public static List<int> largest_digit(int num) {
 
             // List of int
@@ -67,7 +66,6 @@ namespace Challenge287 {
             int diff = 0;
 
             do { 
-
                 // List 1 and List 2 for the forwards and the backwards
                 List<int> reverseList = descending_digits(num);
                 List<int> originalList = largest_digit(num);
